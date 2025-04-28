@@ -1,0 +1,12 @@
+using System.ComponentModel.Design;
+Console.Write("Digite sua idade:");
+int idade = Convert.ToInt32(Console.ReadLine());
+
+if (idade >= 18 && idade < 50)
+{
+    Console.WriteLine("Você pode tirar a carteira de motorista!");
+}
+else
+{
+    Console.WriteLine("Você ainda não pode tirar a carteira de motorista");
+}
