@@ -1,0 +1,14 @@
+String np;
+Console.Write("Digite o primeiro número:");
+np = Console.ReadLine();
+double p = Convert.ToDouble(np);
+
+String na;
+Console.Write("Digite o segundo número:");
+na = Console.ReadLine();
+double a = Convert.ToDouble(na);
+
+double total = (p * a);
+Console.WriteLine("O resultado da é:");
+Console.WriteLine((double)total);
+Console.WriteLine("Octavio Henrique Knupp Lucio");
