@@ -1,0 +1,16 @@
+Console.WriteLine("CALCULE A ÁREA DO RETÂNGULO");
+
+String sb;
+Console.Write("Digite a base do retângulo:");
+sb = Console.ReadLine();
+double b = Convert.ToDouble(sb);
+
+String sh;
+Console.Write("Digite a altura do retãngulo:");
+sh = Console.ReadLine();
+double h = Convert.ToDouble(sh);
+
+double total = (b * h);
+Console.WriteLine("A área do retãngulo e:");
+Console.WriteLine((double)total);
+Console.WriteLine("Octavio Henrique Knupp Lucio");
