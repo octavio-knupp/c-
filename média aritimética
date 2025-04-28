@@ -1,0 +1,18 @@
+String sa;
+Console.Write("Digita a nota a:");
+sa = Console.ReadLine();
+double a = Convert.ToDouble(sa);
+
+String sb;
+Console.Write("Digite a nota b:");
+sb = Console.ReadLine();
+double b = Convert.ToDouble(sb);
+
+String sc;
+Console.Write("Digite a nota c:");
+sc = Console.ReadLine();
+double c = Convert.ToDouble(sc);
+
+double total = (a + b + c)/3;
+Console.WriteLine("A média das notas é:");
+Console.WriteLine((double)total);
