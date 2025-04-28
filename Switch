@@ -1,0 +1,19 @@
+Console.Write("Digite um número de 1 a 3:");
+String entrada = Console.ReadLine();
+int numero = Convert.ToInt32(entrada);
+switch (numero)
+{
+    case 1:
+        Console.WriteLine("Você digitou UM");
+        break;
+
+    case 2:
+        Console.WriteLine("Você digitou DOIS");
+        break;
+    case 3:
+        Console.WriteLine("Você digitou TRÊS");
+        break;
+        default:
+        Console.WriteLine("Número inválido! Digite apenas 1,2 ou 3.");
+        break;
+}
