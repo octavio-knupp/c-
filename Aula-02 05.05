@@ -1,0 +1,9 @@
+Console.WriteLine("Exemplos 1");
+Console.WriteLine("Contagem de 1 até 10:");
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine("Número:" + i);
+}
+
+Console.WriteLine("Contagem finalizadaa." );
