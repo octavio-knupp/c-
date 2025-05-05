@@ -14,10 +14,11 @@ string comando = "";
 
 Console.WriteLine("Exemplo 4: testando com estrada de dados");
 
-while (comando != "sair")
+while (comando.ToUpper() != "SAIR")
 {
     Console.WriteLine("Digite um comando qualquer ( ou digite 'sair' para encerrar):");
     comando = Console.ReadLine();
     Console.WriteLine("Você digitou:" + comando);
 }
 Console.WriteLine("Programa encerrado");
+/* ToUpper converti tudo dentro da váriavel para maiúsculo*/
