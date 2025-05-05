@@ -1,0 +1,7 @@
+int contador = 1;
+do
+{
+     Console.WriteLine("Número:" + contador);
+    contador++;
+}
+while (contador <= 12);
