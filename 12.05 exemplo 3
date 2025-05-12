@@ -1,0 +1,17 @@
+namespace exemplo_3
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            String s = "Este é o texto \r\n";
+            s += "no TextBox com multiline";
+            textBox1.Text = s;
+        }
+    }
+}
