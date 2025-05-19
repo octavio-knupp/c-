@@ -1,0 +1,36 @@
+Console.WriteLine("Exercícios de laço ex: for ");
+Console.WriteLine("Contagem de 0 a 1000");
+for (int i = 0; i <= 1000; i++) 
+{
+    Console.WriteLine("Números:" + i);
+}
+Console.WriteLine("Contagem finalizada!");
+Console.WriteLine("+-------------------------------------------------------------+");
+Console.WriteLine("+-------------------------------------------------------------+");
+Console.WriteLine("+-------------------------------------------------------------+");
+
+Console.WriteLine("Exercícios de laço ex: while");
+Console.WriteLine("Contagem de 0 a 1000");
+int contador = 0;
+while (contador <= 1000)
+{
+    Console.WriteLine("Números:" + contador);
+    contador++;
+}
+Console.WriteLine("Contagem finalizada!");
+
+Console.WriteLine("+-------------------------------------------------------------+");
+Console.WriteLine("+-------------------------------------------------------------+");
+Console.WriteLine("+-------------------------------------------------------------+");
+
+Console.WriteLine("Exercícios de laço ex: do-while");
+Console.WriteLine("Contagem de 0 a 1000");
+
+int contado = 0;
+do
+{
+    Console.WriteLine("Números:" + contado);
+    contado++;
+}
+while (contado <= 1000);
+Console.WriteLine("Contagem finalizada");
