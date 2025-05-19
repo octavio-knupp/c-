@@ -1,0 +1,12 @@
+Console.WriteLine("Calculando número fatorial");
+Console.Write("Digite um número inteiro:");
+
+int n = int.Parse(Console.ReadLine());
+//int.parse transforma o número para inteiro//
+
+long fatorial = 1;
+for (int i = 2; i <= n; i++)
+{
+    fatorial *= i;
+}
+Console.WriteLine($"{n}! = {fatorial}");
