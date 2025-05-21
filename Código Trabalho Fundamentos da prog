@@ -1,0 +1,45 @@
+namespace Trabalho_fundamentos_da_prog
+{
+    public partial class Form1 : Form
+    {
+        private int contador = 0;
+
+        private string[] mensagens = new string[]
+        {
+            "",
+            "faltam 9 clicks",
+            "faltam 8 clicks",
+            "faltam 7 clicks",
+            "faltam 6 clicks",
+            "faltam 5 clicks",
+            "faltam 4 clicks",
+            "faltam 3 clicks",
+            "faltam 2 clicks",
+            "faltam 1 clicks",
+            "Acabou!"
+        };
+        public Form1()
+        {
+            InitializeComponent();
+
+            contagem.Text = "";
+            mensagem.Text = "";
+            Nome.Text = "Octavio Henrique Knupp Lucio";
+            RA.Text = "2025106940";
+        }
+
+        private void btnContar_Click(object sender, EventArgs e)
+        {
+            contador = Math.Min(contador + 1, 10);
+            contagem.Text = contador.ToString();
+            mensagem.Text = mensagens[contador];
+        }
+
+        private void btnZerar_Click(object sender, EventArgs e)
+        {
+            contador = 0;
+            contagem.Text = "";
+            mensagem.Text = "";
+        }
+    }
+}
