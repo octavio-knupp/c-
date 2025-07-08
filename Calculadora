@@ -1,0 +1,23 @@
+Console.Write("Digite o primeiro número: ");
+double n1 = double.Parse(Console.ReadLine());
+Console.Write("Digite o sefundo número: ");
+double n2 = double.Parse(Console.ReadLine());
+Console.Write("Escolha a operação (+, -, *, /):");
+string operacao  = Console.ReadLine();
+
+switch (operacao)
+{
+    case "+":
+        Console.Write("Resultado: " + (n1 + n2));
+        break;
+    case "-":
+        Console.Write("Resultado: " + (n1 - n2));
+        break;
+    case "*":
+        Console.Write("Resultado: " + (n1 * n2));
+        break;
+    case "/":
+        Console.Write("Resultado: " + (n1 / n2));
+        break;
+
+}
