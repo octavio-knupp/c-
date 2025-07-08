@@ -1,0 +1,21 @@
+Random qlq = new Random();
+int secreto = qlq.Next(1,101);// de 1 a 100
+int palpite = 0;
+
+while (palpite != secreto)// para repetir o jogo
+{
+    Console.Write("Digite seu palpite:");
+    palpite = int.Parse(Console.ReadLine());
+
+    if(palpite < secreto)
+    {
+        Console.WriteLine("Muito Baixo!!");
+    }else if(palpite > secreto)
+    {
+        Console.WriteLine("Muito Alto!!");
+    }
+    else
+    {
+        Console.WriteLine("Acertou!!");
+    }
+}
